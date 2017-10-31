@@ -1,4 +1,4 @@
-.PHONY: help clean
+.PHONY: help clean clean-gitignore
 
 help: # stolen from marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "%-10s %s\n", $$1, $$2}'
