@@ -9,7 +9,7 @@ def code_i_want_to_debug(a, b):
     
 # Use a README.md but convert to rst when uploading to PyPI
 
-# put this in setup.py:
+# install pypandoc, then put this in setup.py:
 try:
     from pypandoc import convert
     read_md = lambda f: convert(f, 'rst')
